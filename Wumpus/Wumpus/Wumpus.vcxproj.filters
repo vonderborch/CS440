@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\UnalterableHeaders">
+      <UniqueIdentifier>{c8c793d2-3499-40b3-b6d2-679158c64792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UnalterableCPP">
+      <UniqueIdentifier>{d97690ae-4ab0-4645-8152-a1c473752754}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Agent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WumpusWorld.h">
+      <Filter>Header Files\UnalterableHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Header Files\UnalterableHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Location.h">
+      <Filter>Header Files\UnalterableHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Orientation.h">
+      <Filter>Header Files\UnalterableHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Percept.h">
+      <Filter>Header Files\UnalterableHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldState.h">
+      <Filter>Header Files\UnalterableHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="wumpsim.h">
+      <Filter>Header Files\UnalterableHeaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Agent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cc">
+      <Filter>Source Files\UnalterableCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Location.cc">
+      <Filter>Source Files\UnalterableCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Orientation.cc">
+      <Filter>Source Files\UnalterableCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Percept.cc">
+      <Filter>Source Files\UnalterableCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="wumpsim.cc">
+      <Filter>Source Files\UnalterableCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="WumpusWorld.cc">
+      <Filter>Source Files\UnalterableCPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="testworld.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

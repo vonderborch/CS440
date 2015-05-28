@@ -1,0 +1,31 @@
+
+
+WEBBERAGENT TICK #0
+
+World Knowledge List:
+
+End World Knowledge
+Action Override: SHOOT.
+
+
+WEBBERAGENT TICK #1
+
+List of Coordinates to Visit:
+(0, 0) (1, 0) (2, 0) (3, 0) (3, 1) (3, 2) (3, 3) 
+End List of Coordinates to Visit
+List of Actions:
+(Forward) (Forward) (Forward) (TurnLeft) (Forward) (Forward) (Forward) 
+End List of Actions
+
+
+WEBBERAGENT TICK #2
+
+World Knowledge List:
+
+End World Knowledge
+List of Coordinates to Visit:
+(1, 0) (2, 0) (3, 0) (3, 1) (3, 2) (3, 3) 
+End List of Coordinates to Visit
+List of Actions:
+(Forward) (Forward) (TurnLeft) (Forward) (Forward) (Forward) 
+End List of Actions
